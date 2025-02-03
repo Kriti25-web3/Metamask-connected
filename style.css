@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: lightgreen;
+    padding: 20px;
+  }
+body{
+  overflow-y: hidden;
+    background-color: black;
+}
+  
+  .left-section {
+    width: 50%;
+  }
+  
+  .right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('your-image-url');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  
+  .header {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .email-input {
+    padding: 15px;
+    font-size: 1.5rem;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .metamask-button {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .metamask-button:hover {
+    background-color: #90ee90;
+  }
+  
